@@ -56,8 +56,20 @@ button {
 .popup-modal.show {
   opacity: 100%;
   pointer-events: all;
+  animation: slideDown 1000ms 500ms both;
 }
 
 .backdrop.show {
   opacity: 30%;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translate(-50%, -100%);
+    opacity: 0%;
+  }
+  to {
+    transform: translate(-50%, -50%);
+    opacity: 100%;
+  }
 }
