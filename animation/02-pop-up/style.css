@@ -56,7 +56,7 @@ button {
 .popup-modal.show {
   opacity: 100%;
   pointer-events: all;
-  animation: slideDown 1000ms 500ms both;
+  animation: slide-down 500ms 250ms backwards;
 }
 
 .backdrop.show {

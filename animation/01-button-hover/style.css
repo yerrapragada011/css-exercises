@@ -19,10 +19,10 @@ button {
 }
 
 button:hover {
-  animation: scaleBtn 1000ms 250ms both;
+  animation: scale-btn 300ms forwards;
 }
 
-@keyframes scaleBtn {
+@keyframes scale-btn {
   from {
     transform: scale(1);
   }

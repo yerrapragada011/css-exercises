@@ -27,13 +27,13 @@ ul.dropdown-menu li:hover {
 
 .visible {
   display: block;
-  animation: dropDown 500ms both;
+  animation: drop-down 500ms forwards;
   transform-origin: top;
 }
 
-@keyframes dropDown {
+@keyframes drop-down {
   from {
-    transform: scaleY(0)
+    transform: scaleY(0);
   }
 
   75% {
@@ -41,6 +41,6 @@ ul.dropdown-menu li:hover {
   }
 
   to {
-    transform: scaleY(1)
+    transform: scaleY(1);
   }
 }
